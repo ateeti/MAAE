@@ -30,21 +30,38 @@ where:
   $\ SSE = \sum{(Yi - \hat{Y})^2}$\
   $\ SSR = \sum{(\hat{Yi} - \bar{Y})^2}$
     
-    Using SSR/SST:
+    Using SSE/SST:
     
     . di 236190226/635065396
        = .37191481
+       
+    Using 1 - {(SSR/SST)}:
+    
+    . di 1 - (398875170/635065396)
+        = .37191481
 
 $R^2 = 37.19 %$ price could be explained my this model\
-Adjusted $R^2 = 1 - (SSR/d.f.) / (SST/d.f.)$
+Adjusted $R^2 = 1 - [ (SSR/d.f.) / (SST/d.f.) ]$
+
+    Using Adjusted R-squared:
+    
+    . di 1 - [(398875170/69) / (635065396/73)]
+        = .33550407
 
 ## Finding ROOT MSE
+  
+  * $\ ROOT MSE = \sqrt{\sigma^2} = \sqrt{ \sum{ \epsilon_i } \over {n-number(parameter)}  }$
+  
+  * $\ \sum{ \epsilon_i } = \sum{ \hat{u}_i } = SSR $
+  
+  * .regress = price mpg headroom weight length
+  
+  * $\ Yi = \beta_0$
 
-    . di 398875170/69
-    5780799.6
+    . di (398875170/69)^(1/2)
+        = 2404.3293
 
-. di (398875170/69)^(1/2)
-2404.3293
+
 
 . **when mpg ∆ by 1 unit, price will change by -87.95838
 
