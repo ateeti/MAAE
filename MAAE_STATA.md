@@ -23,12 +23,12 @@ $\ F = {SSE /d.f. \over SSR /d.f.}$
         
 ## Finding R-squared 
 
-$\ R^2 = {SSE / SST} = 1 - {(SSR/SST)} $
+* $\ R^2 = {SSE / SST} = 1 - {(SSR/SST)} $
 
 where:
 
-  $\ SSE = \sum{(Yi - \hat{Y})^2}$\
-  $\ SSR = \sum{(\hat{Yi} - \bar{Y})^2}$
+  * $\ SSE = \sum{(Yi - \hat{Y})^2}$
+  * $\ SSR = \sum{(\hat{Yi} - \bar{Y})^2}$
     
     Using SSE/SST:
     
@@ -51,16 +51,14 @@ Adjusted $R^2 = 1 - [ (SSR/d.f.) / (SST/d.f.) ]$
 ## Finding ROOT MSE
   
   * $\ ROOT MSE = \sqrt{\sigma^2} = \sqrt{ \sum{ \epsilon_i } \over {n-number(parameter)}  }$
-  
   * $\ \sum{ \epsilon_i } = \sum{ \hat{u}_i } = SSR $
-  
-  * .regress = price mpg headroom weight length
-  
+  * . regress = price mpg headroom weight length
   * $\ Yi = \beta_0 + \beta_1 x_{1i} + \beta_2 x_{2i} + \beta_3 x_{3i} + \beta_4 x_{4i} + \epsilon_i $ 
 
+Using $\sqrt{SSR \over n-number(parameter)} = \sqrt{SSR \over n-5} $
+    
     . di (398875170/69)^(1/2)
         = 2404.3293
-
 
 
 . **when mpg ∆ by 1 unit, price will change by -87.95838
