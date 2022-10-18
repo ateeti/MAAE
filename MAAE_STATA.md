@@ -30,15 +30,15 @@ where:
   * $\ SSE = \sum{(Yi - \hat{Y})^2}$
   * $\ SSR = \sum{(\hat{Yi} - \bar{Y})^2}$
     
-    Using SSE/SST:
+        Using SSE/SST:
     
-    . di 236190226/635065396
-       = .37191481
+        . di 236190226/635065396
+           = .37191481
        
-    Using 1 - {(SSR/SST)}:
+        Using 1 - {(SSR/SST)}:
     
-    . di 1 - (398875170/635065396)
-        = .37191481
+        . di 1 - (398875170/635065396)
+            = .37191481
 
 $R^2 = 37.19 %$ price could be explained my this model\
 Adjusted $R^2 = 1 - [ (SSR/d.f.) / (SST/d.f.) ]$
