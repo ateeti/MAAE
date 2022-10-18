@@ -2,9 +2,9 @@
 
 ![lecture 10](https://user-images.githubusercontent.com/20382285/196508065-57c5c2e8-7567-4d13-974f-d6ea4e668a00.JPG)
 
-## Stata
+## Finding F score
 
-Finding F score : $\ F = {SSE /d.f. \over SSR /d.f.}$
+$\ F = {SSE /d.f. \over SSR /d.f.}$
     
     Numerator: (model,SS) / (model,df)
     
@@ -21,7 +21,9 @@ Finding F score : $\ F = {SSE /d.f. \over SSR /d.f.}$
     . di (236190226/4)/(398875170/69)
         = 10.214427
         
-Finding R-squared : $\ R^2 = {SSE / SST} = 1 - {(SSR/SST)} $
+## Finding R-squared 
+
+$\ R^2 = {SSE / SST} = 1 - {(SSR/SST)} $
 
 where:
 
@@ -34,11 +36,12 @@ where:
        = .37191481
 
 $R^2 = 37.19 %$ price could be explained my this model\
-
 Adjusted $R^2 = 1 - (SSR/d.f.) / (SST/d.f.)$
 
-. di 398875170/69
-5780799.6
+## Finding ROOT MSE
+
+    . di 398875170/69
+    5780799.6
 
 . di (398875170/69)^(1/2)
 2404.3293
