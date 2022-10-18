@@ -56,7 +56,7 @@ Adjusted $R^2 = 1 - [ (SSR/d.f.) / (SST/d.f.) ]$
   
   * .regress = price mpg headroom weight length
   
-  * $\ Yi = \beta_0$
+  * $\ Yi = \beta_0 + \beta_1 x_{1i} + \beta_2 x_{2i} + \beta_3 x_{3i} + \beta_4 x_{4i} + \epsilon_i $ 
 
     . di (398875170/69)^(1/2)
         = 2404.3293
