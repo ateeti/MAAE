@@ -23,6 +23,8 @@ ii. Do you think cigs and faminc are likely to be correlated? Explain why the co
 iii. Now, estimate the equation with and without faminc, using the data in BWGHT. Report the results in equation form, including the sample size and R-squared. 
 Discuss your results, focusing on whether adding faminc substantially changes the estimated effect of cigs on bwght.
 
+- 
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 C2.
