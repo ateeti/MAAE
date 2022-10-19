@@ -107,6 +107,7 @@ and the length reduce by 6 inch, what would be the impact on the price of this c
 
 $\ t = {{\hat{\beta_i} - \beta_i} \over \sqrt{Var(\hat{\beta_i})}}$ where $\ \sqrt{Var(\hat{\beta_i})} = std. error $
 
+-------------------------------------------------------------
 Suppose:
 
 $\ H_0 : \beta_1 = 0 $\
@@ -121,6 +122,7 @@ From table : we know that
 
 $\ t = {{-87.95838} \over {83.5927}} = -1.05$
 -------------------------------------------------------------
+
 $\ H_0 : \beta_2 = 0 $\
 $\ H_1 : \beta_2 \neq 0$
 
@@ -131,5 +133,18 @@ From table : we know that
 * $\hat{\beta_2} = -490.9667$ , 
 * $std.err(headroom) = 388.48927$
 
-$\ t = {{-490.9667} \over {388.48927}} = -4.26$
+$\ t = {{-490.9667} \over {388.48927}} = -1.26$
+
 -------------------------------------------------------------
+
+$\ H_0 : \beta_3 = 0 $\
+$\ H_1 : \beta_3 \neq 0$
+
+by $H_0$ , then $\ t = {{\hat{\beta_3} - 0} \over \sqrt{Var(\hat{\beta_3})}}$
+
+From table : we know that
+
+* $\hat{\beta_3} = 4.335045$ , 
+* $std.err(weight) = 1.162745$
+
+$\ t = {{4.335045} \over {1.162745}} = 3.73$
