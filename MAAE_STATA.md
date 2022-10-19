@@ -90,11 +90,13 @@ $\ t = {{\hat{\beta_i} - \beta_i} \over \sqrt{Var(\hat{\beta_i})}}$ where $\ \sq
 Suppose:
 
 $\ H_0 : \beta_1 = 0 $\
-$\ H_1 : \beta_1 \neq 0$ 
-$by _H_0$ , then $\ t = {{\hat{\beta_1} - 0} \over \sqrt{Var(\hat{\beta_1})}}$
+$\ H_1 : \beta_1 \neq 0$
+
+by $H_0$ , then $\ t = {{\hat{\beta_1} - 0} \over \sqrt{Var(\hat{\beta_1})}}$
 
 From table : we know that
 
-* $\beta_1 = -87.95838$ and 
+* $\hat{\beta_1} = -87.95838$ , 
 
 * $std.err(mpg) = 83.5927$
+* t = -1.05
