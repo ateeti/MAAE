@@ -48,7 +48,7 @@ Adjusted $R^2 = 1 - [ (SSR/d.f.) / (SST/d.f.) ]$
     . di 1 - [(398875170/69) / (635065396/73)]
         = .33550407
 
-## Finding ROOT MSE
+## Finding ROOT_MSE
   
   * $\ ROOT MSE = \sqrt{\sigma^2} = \sqrt{ \sum{ \epsilon_i } \over {n-number(parameter)}  }$
   * $\ \sum{ \epsilon_i } = \sum{ \hat{u}_i } = SSR $
@@ -59,31 +59,28 @@ Using $\sqrt{SSR \over n-number(parameter)} = \sqrt{SSR \over n-5} $
     
     . di (398875170/69)^(1/2)
         = 2404.3293
+
+# Bottom part of the table
+
+![lecture 10](https://user-images.githubusercontent.com/20382285/196508065-57c5c2e8-7567-4d13-974f-d6ea4e668a00.JPG)
+
+To interpret coefficient values:
+
+$\ Y_i = \beta_0 + \beta_1 mpg_{1i} + \beta_2 headroom_{2i} + \beta_3 weight_{3i} + \beta_4 length_{4i} + \epsilon_i$
+
+Consider $\beta_1$ :
+
+        . when mpg ∆ by 1 unit, price will change by -87.95838
+        . partialling out all other xs
+        . by FWT
+       
+If mpg increase by 5 unit, and headroom reduce 20 inch, weight increase by 50kg,\
+and the length reduce by 6 inch, what would be the impact on the price of this car ?
+
+        by regression model:
+        . di (-87.958385) + (-20-490.9667) + (504.335045) + (-6-94.49651)
+            = 10163.273
         
-restricted regression : $price_i = \beta_0 + \beta_i mpg_i + \beta_2 weight_i + \beta_1 length_i + \beta_4 headroom_i + \epsilon_i$\
-$price_i = \beta_0 + \beta_i w_i + \beta_2 weight_i + \beta_4 headroom_i + \epsilon_i$
-
-. **when mpg ∆ by 1 unit, price will change by -87.95838
-
-. ** partialling out all other xs
-
-. ** by FWT
-
-. ** If mpg increase by 5 unit, and headroom reduce 20 inch, weight increase by 50kg, and the length reduce by 6 inch, what\ would be the impact on the price of this car ?
-
-. di (-87.958385) + (-20-490.9667) + (504.335045) + (-6-94.49651)
-10163.273
-
-. di (-87.958385) + (20-490.9667) + (504.335045) + (6-94.49651)
--10609.353
-
-. * di (-87.95838*5) + (-20-490.9667) + (504.335045) + (-6-94.49651) // correct\
-
-. predict price_hat
-(option xb assumed; fitted values)\
-
-. br
-
-. predict e, residual
-
-. br
+        by intuition:
+        . di (-87.958385) + (20-490.9667) + (504.335045) + (6-94.49651)
+            = -10609.353
