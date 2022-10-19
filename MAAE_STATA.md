@@ -62,7 +62,7 @@ Using $\sqrt{SSR \over n-number(parameter)} = \sqrt{SSR \over n-5} $
 
 ![lecture 10](https://user-images.githubusercontent.com/20382285/196508065-57c5c2e8-7567-4d13-974f-d6ea4e668a00.JPG)
 
-To interpret coefficient values:
+## To interpret coefficient values:
 
 $\ Y_i = \beta_0 + \beta_1 mpg_{1i} + \beta_2 headroom_{2i} + \beta_3 weight_{3i} + \beta_4 length_{4i} + \epsilon_i$
 
@@ -82,3 +82,11 @@ and the length reduce by 6 inch, what would be the impact on the price of this c
         by intuition:
         . di (-87.958385) + (20-490.9667) + (504.335045) + (6-94.49651)
             = -10609.353
+            
+## Finding t
+
+$\ t = {{\hat{\beta_i} - \beta_i} \over \sqrt{Var(\hat{\beta_1})}}$ where $\ \sqrt{Var(\hat{\beta_1})} = std. error $\
+
+Suppose:\
+$\ H_0 : \beta_0 = 0 $\
+$\ H_1 : \beta_0 \neq 0 $ then $\ t = {{\hat{\beta_i} - 0} \over \sqrt{Var(\hat{\beta_1})}}$
