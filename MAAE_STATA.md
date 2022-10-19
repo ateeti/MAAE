@@ -97,6 +97,6 @@ by $H_0$ , then $\ t = {{\hat{\beta_1} - 0} \over \sqrt{Var(\hat{\beta_1})}}$
 From table : we know that
 
 * $\hat{\beta_1} = -87.95838$ , 
-
 * $std.err(mpg) = 83.5927$
-* $\ t = {{-87.95838} \over {83.5927}} = -1.05$
+
+$\ t = {{-87.95838} \over {83.5927}} = -1.05$
