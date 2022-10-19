@@ -86,7 +86,20 @@ i. Estimate a model relating annual salary to firm sales and market value. Make 
 
 - to achieve the model of the constant elasticity, must take log on all variables. 
 
+![Ch3 c3 sub1](https://user-images.githubusercontent.com/20382285/196773084-31caf2ae-d948-4873-97ac-8a9cc9836115.JPG)
+
+- normal equation:
+  - $salary = 716.5762 + 0.0164994sales + 0.0252906mktval$
+- elasticity eqn:
+  - $log(salary) = 4.620917 + 0.1621283log(sales) + 0.106708log(mktval)$
+
 ii. Add profits to the model from part (i). Why can this variable not be included in logarithmic form? Would you say that these firm performance variables explain most of the variation in CEO salaries?
+
+- taking log on profits resulting in -> 9 missing values generated
+- we tested and found out that these 9 missing values are the ones < 0 (implies that the values are in negative)
+  - using this command : . counf if profit < 0 and the result returns 9
+  - so the reason this variable(profits) can not be included in logarithmic form is because some values are negative.
+- 
 
 iii. Add the variable ceoten to the model in part (ii). What is the estimated percentage return for another year of CEO tenure, holding other factors fixed?
 
