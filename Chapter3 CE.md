@@ -84,6 +84,8 @@ The file CEOSAL2 contains data on 177 chief executive officers and can be used t
 
 i. Estimate a model relating annual salary to firm sales and market value. Make the model of the constant elasticity variety for both independent variables. Write the results out in equation form.
 
+- to achieve the model of the constant elasticity, must take log on all variables. 
+
 ii. Add profits to the model from part (i). Why can this variable not be included in logarithmic form? Would you say that these firm performance variables explain most of the variation in CEO salaries?
 
 iii. Add the variable ceoten to the model in part (ii). What is the estimated percentage return for another year of CEO tenure, holding other factors fixed?
