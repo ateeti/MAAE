@@ -59,7 +59,9 @@ Using $\sqrt{SSR \over n-number(parameter)} = \sqrt{SSR \over n-5} $
     
     . di (398875170/69)^(1/2)
         = 2404.3293
-
+        
+restricted regression : $price_i = \beta_0 + \beta_i mpg_i + \beta_2 weight_i + \beta_1 length_i + \beta_4 headroom_i + \epsilon_i$\
+$price_i = \beta_0 + \beta_i w_i + \beta_2 weight_i + \beta_4 headroom_i + \epsilon_i$
 
 . **when mpg ∆ by 1 unit, price will change by -87.95838
 
