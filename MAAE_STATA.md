@@ -48,6 +48,22 @@ Adjusted $R^2 = 1 - [ (SSR/d.f.) / (SST/d.f.) ]$
     . di 1 - [(398875170/69) / (635065396/73)]
         = .33550407
 
+## Finding MS
+
+![lecture 10](https://user-images.githubusercontent.com/20382285/196508065-57c5c2e8-7567-4d13-974f-d6ea4e668a00.JPG)
+
+MS: are the Mean Squares, the Sum of Squares divided by their respective d.f.
+
+For example : 
+
+we know that $\ SS_{explained} (SSE) = 236190226$ and its d.f. = 4
+
+    236,190,226 / 4 = 59,047,556.5
+ 
+we know that $\ SS_{residuals} (SSR) = 236190226$ and its d.f. = 4
+
+    398,875,170 / 69 = 5,780,799.5652173913043478260869565
+
 ## Finding ROOT_MSE
   
   * $\ ROOT MSE = \sqrt{\sigma^2} = \sqrt{ \sum{ \hat{\epsilon_i} } \over {n-number(parameter)}  }$
@@ -57,6 +73,10 @@ Using $\sqrt{SSR \over n-number(parameter)} = \sqrt{SSR \over n-5} $
     
     . di (398875170/69)^(1/2)
         = 2404.3293
+        
+    or just use MS of SSR and square root it
+    
+$MSE = \sqrt{MS_{residuals}}$
 
 # Bottom part of the table
 
@@ -100,3 +120,16 @@ From table : we know that
 * $std.err(mpg) = 83.5927$
 
 $\ t = {{-87.95838} \over {83.5927}} = -1.05$
+-------------------------------------------------------------
+$\ H_0 : \beta_2 = 0 $\
+$\ H_1 : \beta_2 \neq 0$
+
+by $H_0$ , then $\ t = {{\hat{\beta_2} - 0} \over \sqrt{Var(\hat{\beta_2})}}$
+
+From table : we know that
+
+* $\hat{\beta_2} = -490.9667$ , 
+* $std.err(headroom) = 388.48927$
+
+$\ t = {{-490.9667} \over {388.48927}} = -4.26$
+-------------------------------------------------------------
