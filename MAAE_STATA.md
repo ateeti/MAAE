@@ -76,11 +76,11 @@ If mpg increase by 5 unit, and headroom reduce 20 inch, weight increase by 50kg,
 and the length reduce by 6 inch, what would be the impact on the price of this car ?
 
         by regression model:
-        . di (-87.958385) + (-20-490.9667) + (504.335045) + (-6-94.49651)
+        . di (-87.95838*5) + (-20*-490.9667) + (50*4.335045) + (-6*-94.49651)
             = 10163.273
         
         by intuition:
-        . di (-87.958385) + (20-490.9667) + (504.335045) + (6-94.49651)
+        . di (-87.95838*5) + (20*-490.9667) + (50*4.335045) + (6*-94.49651)
             = -10609.353
             
 ## Finding t
