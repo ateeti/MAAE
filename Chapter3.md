@@ -7,9 +7,18 @@ $bwght = \beta_0 + \beta_1 cigs + \beta_2 faminc + u$
 
 i. What is the most likely sign for $\beta_2$ ?
 
-- 
+- the most likely sign for $\beta_2$ is positive, as stated, higher income generally results in access to better prenatal care,
+  as well as better nutrition for the mother. 
+    - prenatal care
+    - food supplementary, etc.
 
 ii. Do you think cigs and faminc are likely to be correlated? Explain why the correlation might be positive or negative.
+
+- It could either be positive or negative depending on the mother's behavior.
+- If one chooses to spend his/her income on cigs then faminc and cigs would be positively correlated,
+    - the more the faminc, the more the cigs   
+- but if one chooses to spend on prenatal care, better nutrition, then faminc and cigs would be negatively correlated.
+    - the more the faminc, the less the cigs
 
 iii. Now, estimate the equation with and without faminc, using the data in BWGHT. Report the results in equation form, including the sample size and R-squared. 
 Discuss your results, focusing on whether adding faminc substantially changes the estimated effect of cigs on bwght.
