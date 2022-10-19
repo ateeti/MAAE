@@ -99,4 +99,4 @@ From table : we know that
 * $\hat{\beta_1} = -87.95838$ , 
 
 * $std.err(mpg) = 83.5927$
-* t = -1.05
+* $\ t = {{-87.95838} \over {83.5927}} = -1.05$
