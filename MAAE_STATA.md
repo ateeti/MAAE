@@ -50,7 +50,7 @@ Adjusted $R^2 = 1 - [ (SSR/d.f.) / (SST/d.f.) ]$
 
 ## Finding ROOT_MSE
   
-  * $\ ROOT MSE = \sqrt{\sigma^2} = \sqrt{ \sum{ \epsilon_i } \over {n-number(parameter)}  }$
+  * $\ ROOT MSE = \sqrt{\sigma^2} = \sqrt{ \sum{ \hat{\epsilon_i} } \over {n-number(parameter)}  }$
   * $\ \sum{ \epsilon_i } = \sum{ \hat{u}_i } = SSR $
 
 Using $\sqrt{SSR \over n-number(parameter)} = \sqrt{SSR \over n-5} $
