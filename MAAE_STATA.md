@@ -52,8 +52,6 @@ Adjusted $R^2 = 1 - [ (SSR/d.f.) / (SST/d.f.) ]$
   
   * $\ ROOT MSE = \sqrt{\sigma^2} = \sqrt{ \sum{ \epsilon_i } \over {n-number(parameter)}  }$
   * $\ \sum{ \epsilon_i } = \sum{ \hat{u}_i } = SSR $
-  * . regress = price mpg headroom weight length
-  * $\ Yi = \beta_0 + \beta_1 x_{1i} + \beta_2 x_{2i} + \beta_3 x_{3i} + \beta_4 x_{4i} + \epsilon_i $ 
 
 Using $\sqrt{SSR \over n-number(parameter)} = \sqrt{SSR \over n-5} $
     
