@@ -51,14 +51,14 @@ i. Write out the results in equation form.
 ii. What is the estimated increase in price for a house with one more bedroom, holding square footage constant?
 
 - $\ \hat{price} = (\triangle\beta_0 = 0 ) + (\triangle\beta_1 = 0 ) + 15.19819(\triangle\beta_2 = 1$)
-- On average, estimated increase in price for a house with one more bedroom = $\beta_1$\ 
+- On average, estimated increase in price for a house with one more bedroom = $\beta_1$\
     = 15.19819 thousands of dollars
 
 iii. What is the estimated increase in price for a house with an additional bedroom that is 140 square feet in size? Compare this to your answer in part (ii).
 
 - $\ \hat{price} = (\triangle\beta_0 = 0 ) + 0.1284362(\triangle\beta_1 = 140 ) + 15.19819(\triangle\beta_2 = 1$)
 - $\ \hat{price} = (0.1284362 * 140) + (15.19819 * 1)$
-- $\ \hat{price} = 33.179258$ thousands of dollars (excluding \beta_0 since question is asking for estimated not predicted price)
+- $\ \hat{price} = 33.179258$ thousands of dollars (excluding $\beta_0$ since question is asking for estimated not predicted price)
 
 iv. What percentage of the variation in price is explained by square footage and number of bedrooms?
 
@@ -70,8 +70,22 @@ v. The first house in the sample has $sqrft = 2438$ and $bdrms = 4$ . Find the p
 - $\ \hat{price} = -19.315 + 313.1274556 + 60.79276$
 - $\ \hat{price} = 354.6052156$ thousands of dollars
 
-vi. The actual selling price of the first house in the sample was $300,000 (so $price = 300$ ). Find the residual for this house. Does it suggest that the buyer underpaid or overpaid for the house?
+vi. The actual selling price of the first house in the sample was $300,000 ( price = 300 ). Find the residual for this house. Does it suggest that the buyer underpaid or overpaid for the house?
 
-
+- Residual = $Y_i - (\hat{Y} = 354.6052156)$
+- Residual = $300 - 354.6052156$
+- Residual = $-54.6052156$
+    - It suggests that the buyer overpaid for the house by $\approxeq$ 54 thousands of dollars
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+C3.
+The file CEOSAL2 contains data on 177 chief executive officers and can be used to examine the effects of firm performance on CEO salary.
+
+i. Estimate a model relating annual salary to firm sales and market value. Make the model of the constant elasticity variety for both independent variables. Write the results out in equation form.
+
+ii. Add profits to the model from part (i). Why can this variable not be included in logarithmic form? Would you say that these firm performance variables explain most of the variation in CEO salaries?
+
+iii. Add the variable ceoten to the model in part (ii). What is the estimated percentage return for another year of CEO tenure, holding other factors fixed?
+
+iv. Find the sample correlation coefficient between the variables log(mktval) and profits. Are these variables highly correlated? What does this say about the OLS estimators?
