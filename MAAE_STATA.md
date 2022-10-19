@@ -85,8 +85,12 @@ and the length reduce by 6 inch, what would be the impact on the price of this c
             
 ## Finding t
 
-$\ t = {{\hat{\beta_i} - \beta_i} \over \sqrt{Var(\hat{\beta_1})}}$ where $\ \sqrt{Var(\hat{\beta_1})} = std. error $\
+$\ t = {{\hat{\beta_i} - \beta_i} \over \sqrt{Var(\hat{\beta_i})}}$ where $\ \sqrt{Var(\hat{\beta_i})} = std. error $\
 
-Suppose:\
-$\ H_0 : \beta_0 = 0 $\
-$\ H_1 : \beta_0 \neq 0 $ then $\ t = {{\hat{\beta_i} - 0} \over \sqrt{Var(\hat{\beta_1})}}$
+Suppose:
+
+$\ H_0 : \beta_1 = 0 $\
+$\ H_1 : \beta_1 \neq 0$ then $\ t = {{\hat{\beta_1} - 0} \over \sqrt{Var(\hat{\beta_1})}}$
+
+$\ From table : we know that \beta_1 = -87.95838 & std.err(mpg) = 83.5927$\
+$\ t = {  
