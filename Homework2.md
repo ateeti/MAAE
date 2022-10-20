@@ -16,3 +16,4 @@ i. Consider the standard wage equation $\ log(wage) = \beta_0 + \beta_1 educ + \
 * $H_1 : \beta_2 \neq \beta_3$
 
 ii. Test the null hypothesis in part (i) against a two-sided alternative, at the5% significance level, by constructing a 95% confidence interval. What do you conclude?
+
