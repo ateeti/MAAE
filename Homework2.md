@@ -90,5 +90,9 @@ ii.Using the equation in part (i), test $H_0 : \beta_1 = \beta_2$ against a two-
 
 - let's define $\theta_1 = \beta_1 - \beta_2$
 - We can rewrite it as $\beta_1 = \theta_1 + \beta_2$
+- $t_{statistic} = { { \hat{\theta_1}} \over se(\hat{\theta_1})}$ = ${ { \hat{\beta_1} - \hat{\beta_2}} \over se(\hat{\theta_1})}$ = ${ {.1901261 - .1089387 } \over se(.0419431)}$
+![image](https://user-images.githubusercontent.com/20382285/197255642-8968fad9-0d3e-44b0-8899-0fc914abd84e.png)
+
+
 
 
