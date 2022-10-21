@@ -77,3 +77,6 @@ i. Estimate the regression model
 $educ = \beta_0 + \beta_1 motheduc + \beta_2 fatheduc + \beta_3 abil + \beta_4 abil^2 + u$
 
 by OLS and report the results in the usual form. Test the null hypothesis that educ is linearly related to abil against the alternative that therelationship is quadratic.
+
+![image](https://user-images.githubusercontent.com/20382285/197214595-9c81a060-1b9b-4cc1-84d6-d77566015dd8.png)
+
