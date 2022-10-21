@@ -17,6 +17,8 @@ i. Consider the standard wage equation $\ log(wage) = \beta_0 + \beta_1 educ + \
 
 ii. Test the null hypothesis in part (i) against a two-sided alternative, at the 5% significance level, by constructing a 95% confidence interval. What do you conclude?
 
+![image](https://user-images.githubusercontent.com/20382285/197211300-6da77bd8-095f-454b-a412-249c4c6a3ed8.png)
+
 Key idea is that we want to find the $t_{statistic} = {\hat{\beta_2} - \hat{\beta_3} \over se( \hat{\beta_2} - \hat{\beta_3} )}$\
 and we know the difference in the coefficients is $\hat{\beta_2} - \hat{\beta_3} = .0153285 -.0133748 = 0.0019537$\
 The only problem is that we do not know the value of $se(\hat{\beta_2} - \hat{\beta_3})$
@@ -31,11 +33,12 @@ The only problem is that we do not know the value of $se(\hat{\beta_2} - \hat{\b
   
 - now define a new variable name wi = exper + tenure, and regress it in stata
   - $log(wage) = \beta_0 + \beta_1 educ + \theta_2 exper + \beta_3 wi + u$
-  - reg lwage educ expert wi
+  - reg lwage educ expert wi\
+![image](https://user-images.githubusercontent.com/20382285/197210584-e3b6bc40-59be-452c-a988-af0624503bd9.png)
     - and we get se( $\theta_2$ ) = .0047434
-    - and since $t_{statistic} < critical-value$ = .0047434 < 1.96 = we can not reject the null
-   
+    
 - finally, we then calculate $t_{statistic} = {(.0153285 - .0133748) \over .0047434} = .41187756$
+  - Also, since $t_{statistic} < critical-value$ = .41187756 < 1.96 = we can not reject the null
 - $\theta_2 \pm c * se(\theta_2) = .0019537 \pm 1.96(.0047434)$
   - upper : .01125076
   - lower : -.00734336
