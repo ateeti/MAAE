@@ -85,5 +85,5 @@ by OLS and report the results in the usual form. Test the null hypothesis that e
 
 
 
-ii.Using the equation in part (i), test $H_0 : \beta_1 = \beta_2$ against a two-sidedalternative. What is the p-value of the test?
+ii.Using the equation in part (i), test $H_0 : \beta_1 = \beta_2$ against a two-sided alternative. What is the p-value of the test?
 
