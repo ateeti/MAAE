@@ -95,8 +95,9 @@ ii.Using the equation in part (i), test $H_0 : \beta_1 = \beta_2$ against a two-
   - $educ = \beta_0 + \theta_1 motheduc + \beta_2 (motheduc + fatheduc) + \beta_3 abil + \beta_4 abil2$
 - gen wi = motheduc + fatheduc
 - reg educ motheduc wi abil abil2
-- $t_{statistic} = { { \hat{\theta_1}} \over se(\hat{\theta_1})}$ = ${ { \hat{\beta_1} - \hat{\beta_2}} \over se(\hat{\theta_1})}$ = ${ {.1901261 - .1089387 } \over .0419431}$ = $1.9356557$\
-![image](https://user-images.githubusercontent.com/20382285/197255642-8968fad9-0d3e-44b0-8899-0fc914abd84e.png)
+- $t_{statistic} = { { \hat{\theta_1}} \over se(\hat{\theta_1})}$ = ${ { \hat{\beta_1} - \hat{\beta_2}} \over se(\hat{\theta_1})}$ = ${ {.1901261 - .1089387 } \over .0419431}$ = $1.9356557$
+- p-value = 0.053 as shown below\
+![image](https://user-images.githubusercontent.com/20382285/197259253-b215bfea-4eea-4f99-9a9e-f8ed86f5859a.png)
 
 
 
