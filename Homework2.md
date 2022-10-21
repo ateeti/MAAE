@@ -22,8 +22,9 @@ ii. Test the null hypothesis in part (i) against a two-sided alternative, at the
 <strong>C8</strong> The data set 401KSUBS contains information on net financial wealth (nettfa),age of the survey respondent (age), annual family income (inc), family size(fsize), and participation in certain pension plans for people in the UnitedStates. The wealth and income variables are both recorded in thousands ofdollars. For this question, use only the data for single-person households (so $fsize = 1$)
 
 i. How many single-person households are there in the data set?
-. count if fsize == 1
-  2,017
+
+<img width="172" alt="image" src="https://user-images.githubusercontent.com/116269829/197110058-2aa726e1-c342-4736-8a2e-04e347d7e2b8.png">
+
 - There are 2017 single-person households in the datas set.
 
 ii. Use OLS to estimate the model
