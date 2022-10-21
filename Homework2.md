@@ -100,6 +100,11 @@ ii.Using the equation in part (i), test $H_0 : \beta_1 = \beta_2$ against a two-
 
 ![image](https://user-images.githubusercontent.com/20382285/197259253-b215bfea-4eea-4f99-9a9e-f8ed86f5859a.png)
 
+iii. Add the two college tuition variables to the regression from part (i) and determine whether they are jointly statistically significant.
+
+![image](https://user-images.githubusercontent.com/20382285/197265072-7e0588be-4759-46a1-a518-2a0c2511f376.png)
+
+- p-value : 0.4322 $\therefore 
 
 
 
