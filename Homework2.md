@@ -23,6 +23,7 @@ The only problem is that we do not know the value of $se(\hat{\beta_2} - \hat{\b
 
 - let us define $\theta_2 : \beta_2 - \beta_3$
 - the t statistic in terms of $\hat{\theta_2}$ is $t = \hat{\theta_2}/se(\hat{\theta_2})$
+  - we want to find $se(\theta_2)$ 
 - because $\theta_2 : \beta_2 - \beta_3$, we can also write $\beta_2 = \theta_2 + \beta_3$. Plugging this into the equation and rearrange gives this equation
 
   - $log(wage) = \beta_0 + \beta_1 educ + (\theta_2 + \beta_3)exper + \beta_3 tenure + u$
@@ -31,11 +32,16 @@ The only problem is that we do not know the value of $se(\hat{\beta_2} - \hat{\b
 - now define a new variable name wi = exper + tenure, and regress it in stata
   - $log(wage) = \beta_0 + \beta_1 educ + \theta_2 exper + \beta_3 wi + u$
   - reg lwage educ expert wi
-    - and we get se(wi) = $se(\hat{\beta_2} - \hat{\beta_3})$ = .0025872
+    - and we get se( $\theta_2$ ) = .0047434
+    - and since $t_{statistic} < critical-value$ = .0047434 < 1.96 = we can not reject the null
+   
+- finally, we then calculate $t_{statistic} = {(.0153285 - .0133748) \over .0047434} = .41187756$
+- $\theta_2 \pm c * se(\theta_2) = .0019537 \pm 1.96(.0047434)$
+  - upper : .01125076
+  - lower : -.00734336
 
-- now we plug solve for $t_{statistic} = {\hat{\beta_2} - \hat{\beta_3} \over se(wi)} = {0.0019537 \over 0.0025872} \approxeq 0.7551$
-- $looking up the p-value at \alpha = 5% , p-value = 1.962$
-
+* since 0 is inside the C.I. which implies that there is not enough evidence to reject the null hypothesis.
+-------------------------------------------------------
 <strong>C8</strong> The data set 401KSUBS contains information on net financial wealth (nettfa),age of the survey respondent (age), annual family income (inc), family size(fsize), and participation in certain pension plans for people in the UnitedStates. The wealth and income variables are both recorded in thousands ofdollars. For this question, use only the data for single-person households (so $fsize = 1$)
 
 i. How many single-person households are there in the data set?
