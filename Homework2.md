@@ -83,7 +83,8 @@ by OLS and report the results in the usual form. Test the null hypothesis that e
 - testing that educ is linearly related to abil 
   - $H_0 : \beta_4 = 0$
   - $educ = \beta_0 + \beta_1 motheduc + \beta_2 fatheduc + \beta_3 abil + \beta_4 abil2$
-  - $t_{statistic} = { { \hat{\beta_4} - 0 } \over se(\hat{\beta_4})}$ = $.050599 \over .0083039$ = $1.9356557$
+  - $t_{statistic} = { { \hat{\beta_4} - 0 } \over se(\hat{\beta_4})}$ = $.050599 \over .0083039$ = $6.0934019$
+    - very high value $\therefore$ reject $\H_0 : \beta_4 = 0$
 
 ii.Using the equation in part (i), test $H_0 : \beta_1 = \beta_2$ against a two-sided alternative. What is the p-value of the test?
 
