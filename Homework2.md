@@ -17,7 +17,23 @@ i. Consider the standard wage equation $\ log(wage) = \beta_0 + \beta_1 educ + \
 
 ii. Test the null hypothesis in part (i) against a two-sided alternative, at the 5% significance level, by constructing a 95% confidence interval. What do you conclude?
 
--
+Key idea is that we want to find the $t_{statistic} = {\hat{\beta_2} - \hat{\beta_3} \over se( \hat{\beta_2} - \hat{\beta_3} )}$\
+and we know the difference in the coefficients is $\hat{\beta_2} - \hat{\beta_3} = .0153285 -.0133748 = 0.0019537$\
+The only problem is that we do not know the value of $se(\hat{\beta_2} - \hat{\beta_3})$
+
+- let us define $\theta_2 : \beta_2 - \beta_3$
+- the t statistic in terms of $\hat{\theta_2}$ is $t = \hat{\theta_2}/se(\hat{\theta_2})$
+- because $\theta_2 : \beta_2 - \beta_3$, we can also write $\beta_2 = \theta_2 + \beta_3$. Plugging this into the equation and rearrange gives this equation
+
+  - $log(wage) = \beta_0 + \beta_1 educ + (\theta_2 + \beta_3)exper + \beta_3 tenure + u$
+  - $log(wage) = \beta_0 + \beta_1 educ + \theta_2 exper + \beta_3(exper + tenure) + u$
+  
+- now define a new variable name wi = exper + tenure, and regress it in stata
+  - $log(wage) = \beta_0 + \beta_1 educ + \theta_2 exper + \beta_3 wi + u$
+  - reg lwage educ expert wi
+    - and we get se(wi) = $se(\hat{\beta_2} - \hat{\beta_3})$ = .0025872
+
+- now we plug solve for $t_{statistic} = {\hat{\beta_2} - \hat{\beta_3} \over se(wi)} = {0.0019537 \over 0.0025872} \approxeq 0.7551$
 
 <strong>C8</strong> The data set 401KSUBS contains information on net financial wealth (nettfa),age of the survey respondent (age), annual family income (inc), family size(fsize), and participation in certain pension plans for people in the UnitedStates. The wealth and income variables are both recorded in thousands ofdollars. For this question, use only the data for single-person households (so $fsize = 1$)
 
