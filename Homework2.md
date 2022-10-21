@@ -38,7 +38,7 @@ The only problem is that we do not know the value of $se(\hat{\beta_2} - \hat{\b
     - and we get se( $\theta_2$ ) = .0047434
     
 - finally, we then calculate $t_{statistic} = {(.0153285 - .0133748) \over .0047434} = .41187756$
-  - Also, since $t_{statistic} < critical-value$ = .41187756 < 1.96 = we can not reject the null
+  - Also, since $t_{statistic} = .41187756 < critical-value = 1.96$ -> we can not reject the null
 - $\theta_2 \pm c * se(\theta_2) = .0019537 \pm 1.96(.0047434)$
   - upper : .01125076
   - lower : -.00734336
@@ -66,3 +66,13 @@ iii. Does the intercept from the regression in part (ii) have an interesting mea
 -
 
 iv. Find the p-value for the test $H_0 : \beta_2 = 1$ against $H_1 : \beta_2 < 1$. Do you reject at the 1% significance level?
+
+-------------------------------------------------------
+
+C11. Use the data in HTV to answer this question.
+
+i. Estimate the regression model
+
+$educ = \beta_0 + \beta_1 motheduc + \beta_2 fatheduc + \beta_3 abil + \beta_4 abil^2 + u$
+
+by OLS and report the results in the usual form. Test the null hypothesis that educ is linearly related to abil against the alternative that therelationship is quadratic.
