@@ -90,7 +90,6 @@ ii.Using the equation in part (i), test $H_0 : \beta_1 = \beta_2$ against a two-
 
 - let's define $\theta_1 = \beta_1 - \beta_2$
 - We can rewrite it as $\beta_1 = \theta_1 + \beta_2$
-  - $educ = \beta_0 + \beta_1 motheduc + \beta_2 fatheduc + \beta_3 abil + \beta_4 abil2$
   - $educ = \beta_0 + (\theta_1 + \beta_2)motheduc + \beta_2 fatheduc + \beta_3 abil + \beta_4 abil2$
   - $educ = \beta_0 + \theta_1 motheduc + \beta_2 motheduc + \beta_2 fatheduc + \beta_3 abil + \beta_4 abil2$
   - $educ = \beta_0 + \theta_1 motheduc + \beta_2 (motheduc + fatheduc) + \beta_3 abil + \beta_4 abil2$
