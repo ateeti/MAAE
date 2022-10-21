@@ -80,7 +80,10 @@ by OLS and report the results in the usual form. Test the null hypothesis that e
 
 ![image](https://user-images.githubusercontent.com/20382285/197214595-9c81a060-1b9b-4cc1-84d6-d77566015dd8.png)
 
-- 
+- testing that educ is linearly related to abil 
+  - $H_0 : \beta_4 = 0$
+
+
 
 ii.Using the equation in part (i), test $H_0 : \beta_1 = \beta_2$ against a two-sidedalternative. What is the p-value of the test?
 
