@@ -34,6 +34,7 @@ The only problem is that we do not know the value of $se(\hat{\beta_2} - \hat{\b
     - and we get se(wi) = $se(\hat{\beta_2} - \hat{\beta_3})$ = .0025872
 
 - now we plug solve for $t_{statistic} = {\hat{\beta_2} - \hat{\beta_3} \over se(wi)} = {0.0019537 \over 0.0025872} \approxeq 0.7551$
+- $looking up the p-value at \alpha = 5% , p-value = 1.962$
 
 <strong>C8</strong> The data set 401KSUBS contains information on net financial wealth (nettfa),age of the survey respondent (age), annual family income (inc), family size(fsize), and participation in certain pension plans for people in the UnitedStates. The wealth and income variables are both recorded in thousands ofdollars. For this question, use only the data for single-person households (so $fsize = 1$)
 
