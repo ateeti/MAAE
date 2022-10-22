@@ -4,7 +4,7 @@
 
 1. Saranpong Daengdej
 2. Pongphon Chongrungsakulroj
-3. (Qiaofang)Prudence Chen
+3. Qiaofang Chen
 4. Ateeti Sarathiwatprapai
 
 ## Chapter 4 : Multiple Regression Analysis
