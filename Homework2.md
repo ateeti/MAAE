@@ -106,5 +106,11 @@ iii. Add the two college tuition variables to the regression from part (i) and d
 
 - p-value : 0.4322 $\therefore 
 
+iv. What is the correlation between tuit17 and tuit18? Explain why using the average of the tuition over the two years might be preferred to adding each separately. What happens when you do use the average?
+
+![image](https://user-images.githubusercontent.com/20382285/197330645-94a9f3dc-aae5-4d2e-9e3a-335980b545c4.png)
+
+- the correlation between tuit17 and tuit18 is 0.9808, which implies that they are strongly positively correlated
+
 
 
