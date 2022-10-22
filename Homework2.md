@@ -190,12 +190,15 @@ What are your expectations for the coefficients in this equation? Which ones are
 
 Use the data in WAGE1 for this exercise
 
-![image](https://user-images.githubusercontent.com/20382285/197357987-2836a428-f46e-4fb8-a457-f150ea291127.png)
+![image](https://user-images.githubusercontent.com/20382285/197358647-d775328c-7d2e-458c-a59e-e251ac5f82b3.png)
 
 i . estimate the gender differential when $educ = 12.5$. Compare this with the estimated differential when $educ = 0$
 
-- 
+- when $educ = 12.5$, the gender differential : -.2267886 + (-.0055645*12.5) = -.29634485 = 29.63% in wage
+- when $educ = 0$, the gender differential : -.2267886 + (-.0055645*0) = -.2267886 = 22.68% in wage
+- so the gender differential in wage is -.29634485 - -.2267886 = -.06955625 $\approxeq$ 6.95%
 
+ii. Run the regression used to obtain (7.18), but with female·(educ − 12.5)replacing female∙educ. How do you interpret the coefficient on female now?
 
 
 --------------------------------------------------------
