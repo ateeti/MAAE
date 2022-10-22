@@ -156,6 +156,14 @@ ii. Add the variables $exper^2$ and $tenure^2$ to the equation and show that the
 - p-value of $F_{statistic}$ = 0.2260 which is greater that the critical level (20%)
   - 0.2260 > 0.200 $\therefore$ we conclude that exper2 and tenure2 are jointly statistically insignificant at even the 20% significance level.  
 
+iii. Extend the original model to allow the return to education to depend on race and test whether the return to education does depend on race.
+
+- .
+
+iv. Again, start with the original model, but now allow wages to differ across four groups of people: married and black, married and nonblack, single and black, and single and nonblack. What is the estimated wage differential between married blacks and married nonblacks?
+
+- 
+
 --------------------------------------------------------
 <strong>C4</strong>
 
