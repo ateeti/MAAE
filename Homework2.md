@@ -171,7 +171,7 @@ $log(wage) = \beta_0 + \beta_1educ + \beta_2exper + \beta_3tenure + \beta_4south
 
 ![image](https://user-images.githubusercontent.com/20382285/197354078-745b1622-6691-4c12-b75e-dff3ba99cc41.png)
 
-- $\beta_6 - \beta_7 = .0094484 - .1889147 = -.1794663 
+- $\beta_6 - \beta_7$ = .0094484 - .1889147 = -.1794663 
 - the estimated wage differential between married blacks and married nonblacks approximately 17.94%
 
 --------------------------------------------------------
