@@ -149,7 +149,7 @@ and report the results in the usual form. Holding other factors fixed, what is t
 
 - \beta_5 determines the difference in month log(salary) between black and nonblacks. In this case, black earns 18.835% less than the nonblacks in salary. 
 
-ii. Add the variables $exper^2$ and $tenure^2$ to the equation and show that they are jointly insignificant at even the 20% level.
+ii. Add the variables $exper^2$ and $tenure^2$ to the equation and show that they are jointly insignificant at even 20% level.
 
 ![image](https://user-images.githubusercontent.com/20382285/197350063-92792d55-7b9b-48d9-aa68-51bc541bc36b.png)
 
