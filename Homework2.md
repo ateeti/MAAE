@@ -192,7 +192,7 @@ Use the data in WAGE1 for this exercise
 
 ![image](https://user-images.githubusercontent.com/20382285/197357987-2836a428-f46e-4fb8-a457-f150ea291127.png)
 
-i . estimate the differential when $educ = 12.5$. Compare this with the estimated differential when $educ = 0$
+i . estimate the gender differential when $educ = 12.5$. Compare this with the estimated differential when $educ = 0$
 
 - 
 
