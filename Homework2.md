@@ -158,11 +158,19 @@ ii. Add the variables $exper^2$ and $tenure^2$ to the equation and show that the
 
 iii. Extend the original model to allow the return to education to depend on race and test whether the return to education does depend on race.
 
-- .
+![image](https://user-images.githubusercontent.com/20382285/197350747-b4021de7-41d5-41e6-81ac-acf6d8afebeb.png)
+
+![image](https://user-images.githubusercontent.com/20382285/197353762-f5c9980e-d566-4a20-956e-4479a02ce558.png)
+
+- p-value of $F_{statistic} = 0.2626$ , which is greater than significance level even at 20%
+- $\therefore$ we can say that education does not depend on race.  
 
 iv. Again, start with the original model, but now allow wages to differ across four groups of people: married and black, married and nonblack, single and black, and single and nonblack. What is the estimated wage differential between married blacks and married nonblacks?
 
-- 
+$log(wage) = \beta_0 + \beta_1educ + \beta_2exper + \beta_3tenure + \beta_4south + \beta_5urban + \beta_6marriedblack + \beta_7marriednonblack + \beta_8 singleblack + u$
+
+![image](https://user-images.githubusercontent.com/20382285/197354078-745b1622-6691-4c12-b75e-dff3ba99cc41.png)
+
 
 --------------------------------------------------------
 <strong>C4</strong>
