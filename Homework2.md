@@ -123,13 +123,13 @@ iii. Add the two college tuition variables to the regression from part (i) and d
 
 ![image](https://user-images.githubusercontent.com/20382285/197265072-7e0588be-4759-46a1-a518-2a0c2511f376.png)
 
-- p-value : 0.4322 $\therefore 
+- p-value : 0.4322 $\therefore$ the tuition variables are jointly insignificant at any reasonable significance level.
 
 iv. What is the correlation between tuit 17 and tuit 18? Explain why using the average of the tuition over the two years might be preferred to adding each separately. What happens when you do use the average?
 
 ![image](https://user-images.githubusercontent.com/20382285/197333154-64d3c716-a961-46e8-9ed6-ff525175778a.png)
 
-- correlation between tuit17 tuit18 : 0.9808 = which is very high
+- correlation between tuit17 & tuit18 : 0.9808 
 
 
 --------------------------------------------------------
