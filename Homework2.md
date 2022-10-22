@@ -131,6 +131,8 @@ iv. What is the correlation between tuit 17 and tuit 18? Explain why using the a
 
 - correlation between tuit17 & tuit18 : 0.9808 
 
+![image](https://user-images.githubusercontent.com/20382285/197338789-374ef590-16a2-4b98-8c7e-f16d82b83de4.png)
+
 
 --------------------------------------------------------
 
