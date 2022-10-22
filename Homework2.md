@@ -142,10 +142,19 @@ iv. What is the correlation between tuit 17 and tuit 18? Explain why using the a
 <strong>C2</strong>
 
 i. Estimate the model\
-$log(wage) = \beta_0 + \beta_1educ + \beta_2exper + \beta_3tenure + \beta_4married + \beta_5black + \beta_6south + \beta_7urban + u$
+$log(wage) = \beta_0 + \beta_1educ + \beta_2exper + \beta_3tenure + \beta_4married + \beta_5black + \beta_6south + \beta_7urban + u$\
+and report the results in the usual form. Holding other factors fixed, what is the approximate difference in monthly salary between blacks and nonblacks? Is this difference statistically significant?
 
 ![image](https://user-images.githubusercontent.com/20382285/197349367-83213b17-3943-4202-87a0-a10731120ac4.png)
 
+- \beta_5 determines the difference in month log(salary) between black and nonblacks. In this case, black earns 18.835% less than the nonblacks in salary. 
+
+ii. Add the variables $exper^2$ and $tenure^2$ to the equation and show that they are jointly insignificant at even the 20% level.
+
+![image](https://user-images.githubusercontent.com/20382285/197350063-92792d55-7b9b-48d9-aa68-51bc541bc36b.png)
+
+- p-value of $F_{statistic}$ = 0.2260 which is greater that the critical level (20%)
+  - 0.2260 > 0.200 $\therefore$ we conclude that exper2 and tenure2 are jointly statistically insignificant at even the 20% significance level.  
 
 --------------------------------------------------------
 <strong>C4</strong>
