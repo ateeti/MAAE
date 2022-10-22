@@ -134,11 +134,17 @@ iv. What is the correlation between tuit 17 and tuit 18? Explain why using the a
 ![image](https://user-images.githubusercontent.com/20382285/197338823-6f99f9a6-1125-438a-9971-ad6e97ab6457.png)
 
 
+
+
 --------------------------------------------------------
 
 ## Chapter 7 : Multiple Regression Analysis with Qualitative Information
 <strong>C2</strong>
 
+i. Estimate the model\
+$log(wage) = \beta_0 + \beta_1educ + \beta_2exper + \beta_3tenure + \beta_4married + \beta_5black + \beta_6south + \beta_7urban + u$
+
+![image](https://user-images.githubusercontent.com/20382285/197349367-83213b17-3943-4202-87a0-a10731120ac4.png)
 
 
 --------------------------------------------------------
