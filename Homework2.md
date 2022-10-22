@@ -171,15 +171,31 @@ $log(wage) = \beta_0 + \beta_1educ + \beta_2exper + \beta_3tenure + \beta_4south
 
 ![image](https://user-images.githubusercontent.com/20382285/197354078-745b1622-6691-4c12-b75e-dff3ba99cc41.png)
 
-- $\beta_6 - \beta_7$ = .0094484 - .1889147 = -.1794663 
+- $\hat{beta_6} - \hat{beta_7}$ = .0094484 - .1889147 = -.1794663 
 - the estimated wage differential between married blacks and married nonblacks approximately 17.94%
 
 --------------------------------------------------------
 <strong>C4</strong>
 
+i. Consider the equation
+
+$colgpa = \beta_0 + \beta_1hsize + \beta_2hsize^2 + \beta_3hsperc + \beta_4sat + \beta_5female + \beta_6athlete + u$
+
+What are your expectations for the coefficients in this equation? Which ones are you unsure about?
+
+- 
 
 --------------------------------------------------------
 <strong>C7</strong>
+
+Use the data in WAGE1 for this exercise
+
+![image](https://user-images.githubusercontent.com/20382285/197357987-2836a428-f46e-4fb8-a457-f150ea291127.png)
+
+i . estimate the differential when $educ = 12.5$. Compare this with the estimated differential when $educ = 0$
+
+- 
+
 
 
 --------------------------------------------------------
