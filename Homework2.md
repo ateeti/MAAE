@@ -62,8 +62,8 @@ $nettfa = \beta_0 + \beta_1inc + \beta_2age + u$
 Interpret the slope coefficients. Are there any surprises in the slope estimates?
 <img width="634" alt="image" src="https://user-images.githubusercontent.com/116269829/197328981-a6e78091-dd5d-4a0d-90db-4df0477f6bc1.png">
 
--$\beta_1$ is .7993167, which means given 1 unit increase in annual family income, the net financial wealth will increase by around 0.8 unit.
--$\beta_2$ is .8426563 , which means given 1 unit increase in age, the net financial wealth will increase by 0.84 unit.
+- $\beta_1$ is .7993167, which means given 1 unit increase in annual family income, the net financial wealth will increase by around 0.8 unit.
+- $\beta_2$ is .8426563 , which means given 1 unit increase in age, the net financial wealth will increase by 0.84 unit.
 Both of the coefficients are statistically significant since their p-value are both 0.000. But the numbers are expected to be larger since age and income are supposed to have higher impact on net financial wealth.
 
 iii. Does the intercept from the regression in part (ii) have an interesting meaning? Explain.
@@ -73,7 +73,11 @@ iii. Does the intercept from the regression in part (ii) have an interesting mea
 
 iv. Find the p-value for the test $H_0 : \beta_2 = 1$ against $H_1 : \beta_2 < 1$. Do you reject at the 1% significance level?
 
--The t test for $\beta_2$ is $T_{\hat{\beta_2}} = {\hat{\beta_2} - 1 / se(\hat{\beta_2}) =  0.8426563 - 1 / 0.0920169 \approx -1.71$
+- The t test for $\beta_2$ is $T_{\hat{\beta_2}} = \frac{{{\hat{\beta_2}} - 1}}{ se(\hat{\beta_2})} =  \frac{{0.8426563 - 1}}{ 0.0920169} \approx -1.71$
+
+ <img width="272" alt="image" src="https://user-images.githubusercontent.com/116269829/197332007-9edff877-f96a-4a59-b5b0-035a138da60c.png">
+- The p-value with d.f. = n - k -1 = 2017 - 2 - 1 = 2014 is 0.0437, which is larger than 1%.
+- So we cannot reject the null hypothesis at 1% significance level.
 
 -------------------------------------------------------
 
