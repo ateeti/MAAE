@@ -208,7 +208,15 @@ ii. Run the regression used to obtain (7.18), but with female·(educ − 12.5)re
 - $\hat{log(wage)} = \beta_0 + female(\delta_0 + \delta_112.5) + \beta_1educ + \delta_1female*educ + other factors$
 - $\theta_0 : (\delta_0 + \delta_112.5) = (-.2267886 + -.0055645(12.5)) = -.29634485$
 
+iii. Is the coefficient on female in part (ii) statistically significant? Comparethis with (7.18) and comment.
+
+![image](https://user-images.githubusercontent.com/20382285/197380504-62e52be0-26e3-4d6f-85e9-abc92b88bf8c.png)
+
+- t score : -8.27, which is very significant. 
+
 --------------------------------------------------------
 <strong>C16</strong>
+
+
 
 --------------------------------------------------------
