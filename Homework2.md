@@ -249,6 +249,6 @@ iv. Return to the simple regression of math12 on cathhs, but restrict the regres
 
 ![image](https://user-images.githubusercontent.com/20382285/197384104-5ecc3310-1d39-4077-b7f6-3caafcda62c6.png)
 
-- p-value f_{statistic} : 0.0000 implies that 
+- p-value $f_{statistic}$ : 0.0000 implies that 
 
 --------------------------------------------------------
