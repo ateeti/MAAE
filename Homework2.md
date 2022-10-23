@@ -236,6 +236,8 @@ $\hat{\beta_1} = 3.462385$ is the differential in math score of those who attend
 
 iii. Now add the variables lfaminc, motheduc, and fatheduc to the regression from part (ii). How many observations are used in the regression? What happens to the coefficient on cathhs, along with its statistical significance?
 
+![image](https://user-images.githubusercontent.com/20382285/197384364-4c27c9b4-92c5-4a36-a43f-c1615030c0d7.png)
+
 - number of observation(variables) used : 7430 
 - the coefficient on cathhs reduces by 1.985155 
   - from 3.462385 -> 1.47723 
