@@ -202,6 +202,11 @@ i . estimate the gender differential when $educ = 12.5$. Compare this with the e
 
 ii. Run the regression used to obtain (7.18), but with female·(educ − 12.5)replacing female∙educ. How do you interpret the coefficient on female now?
 
+- $\hat{log(wage)} = \beta_0 + \delta_0female + \beta_1educ + \delta_1female*educ + other factors$
+- $\hat{log(wage)} = \beta_0 + \delta_0female + \beta_1educ + \delta_1female*(educ-12.5) + other factors$
+- $\hat{log(wage)} = \beta_0 + \delta_0female + \beta_1educ + \delta_1female*educ + \delta_1female12.5 + other factors$
+- $\hat{log(wage)} = \beta_0 + female(\delta_0 + \delta_112.5) + \beta_1educ + \delta_1female*educ + other factors$
+- $\thet_0 : (\delta_0 + \delta_112.5) = (-.2267886 + -.0055645(12.5)) = -.29634485$
 
 --------------------------------------------------------
 <strong>C16</strong>
