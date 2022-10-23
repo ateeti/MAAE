@@ -247,6 +247,8 @@ iv. Return to the simple regression of math12 on cathhs, but restrict the regres
 - to restrict the regression with respect to the simple regression in part i.
   - We treat $H_0 : \beta_2 = \beta_3 = \beta_4 = 0$
 
+![image](https://user-images.githubusercontent.com/20382285/197384104-5ecc3310-1d39-4077-b7f6-3caafcda62c6.png)
 
+- p-value f_{statistic} : 0.0000 implies that 
 
 --------------------------------------------------------
