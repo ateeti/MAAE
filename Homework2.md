@@ -221,6 +221,8 @@ i. In the entire sample, what percentage of the students attend a Catholic high 
 
 ![image](https://user-images.githubusercontent.com/20382285/197380838-16a941db-843d-4cbd-9950-6b670481abd3.png)
 
+- .06083445 $\approxeq$ 60.8% attend a Catholic high school
+
 ii. Run a simple regression of math12 on cathhs and report the results in the usual way. Interpret what you have found.
 
 ![image](https://user-images.githubusercontent.com/20382285/197380886-bb082ebc-e312-4a7c-8fcf-b4680a8469d0.png)
@@ -228,9 +230,23 @@ ii. Run a simple regression of math12 on cathhs and report the results in the us
 - $math12 = \beta_0 + \beta_1cathhs + u$
 - $math12 = 51.92299 + 3.462385cathhs + u$
 
-$\hat{\beta_1} = 3.462385$ is the differential in math score of those who attended catholic and non-catholic highscool\
+$\hat{\beta_1} = 3.462385$ is the differential in math score of those who attends catholic and non-catholic high-school
   - cathhs = 1 : $\beta_0 + \beta_1$
   - cathhs = 0 : $\beta_0$
+
+iii. Now add the variables lfaminc, motheduc, and fatheduc to the regression from part (ii). How many observations are used in the regression? What happens to the coefficient on cathhs, along with its statistical significance?
+
+- number of observation : 7430
+- the coefficient on cathhs reduces by 1.985155 
+  - 3.462385 - 1.47723 
+- its statistical significance has also reduced but still remains significant 
+  - went from $t_{cathhs}$ : 7.57 -> 3.53 
+  
+iv. Return to the simple regression of math12 on cathhs, but restrict the regression to observations used in the multiple regression from part (iii). Do any important conclusions change?
+
+- to restrict the regression with respect to the simple regression in part i.
+  - We treat $H_0 : \beta_2 = \beta_3 = \beta_4 = 0$
+
 
 
 --------------------------------------------------------
