@@ -9,7 +9,7 @@
 
 ## Chapter 4 : Multiple Regression Analysis
 
-<strong>C6</strong> 
+<strong>C6</strong> [Done]
 
 Use the data in WAGE2 for this exercise.
 
@@ -41,8 +41,8 @@ The only problem is that we do not know the value of $se(\hat{\beta_2} - \hat{\b
     
 - finally, we then calculate $t_{statistic} = {(.0153285 - .0133748) \over .0047434} = .41187756$
   - Also, since $t_{statistic} = .41187756 < critical-value = 1.96$ 
-  - $\therefore$ we can not reject the null
-- $\theta_2 \pm c * se(\theta_2) = .0019537 \pm 1.96(.0047434)$
+  - $\therefore$ we can not reject the null hypothesis.
+- $\theta_2 \pm c_{0.025} * se(\theta_2) = .0019537 \pm 1.96(.0047434)$
   - upper : .01125076
   - lower : -.00734336
 
