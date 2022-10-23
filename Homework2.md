@@ -253,4 +253,17 @@ iv. Return to the simple regression of math12 on cathhs, but restrict the regres
 
 - p-value $f_{statistic}$ : 0.0000 implies that 
 
+v. To the multiple regression in part (iii), add interactions between cathhs and each of the other explanatory variables. Are the interaction termsindividually or jointly significant?
+
+![image](https://user-images.githubusercontent.com/20382285/197384808-61ad3e55-9b6c-4147-a058-c01a055b932d.png)
+
+![image](https://user-images.githubusercontent.com/20382285/197384817-1b41c93d-c1b1-47b5-96b8-a372a4a0e7c8.png)
+
+-..
+
+vii. Compute the average partial effect of cathhs in the model estimated in part (v). How does it compare with the coefficients on cathhs in parts (iii) and (v)?
+
+$math12 = \beta_0 + \beta_1cathhs + \beta_2lfaminc + \beta_3 motheduc + \beta_4 fatheduc + \beta_5clfam + \beta_6cmotheduc + \beta_7cfatheduc$
+- average partial effect of cathhs is when cathhs == 1 : $\beta_0 + \beta_1 + \beta_5 + \beta_6 + \beta_7$
+
 --------------------------------------------------------
