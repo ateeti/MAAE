@@ -87,7 +87,7 @@ iv. Find the p-value for the test $H_0 : \beta_2 = 1$ against $H_1 : \beta_2 < 1
 
 -------------------------------------------------------
 
-<strong>C11</strong>
+<strong>C11</strong> [Done]
 
 Use the data in HTV to answer this question.
 
@@ -129,12 +129,15 @@ iv. What is the correlation between tuit 17 and tuit 18? Explain why using the a
 
 ![image](https://user-images.githubusercontent.com/20382285/197333154-64d3c716-a961-46e8-9ed6-ff525175778a.png)
 
-- correlation between tuit17 & tuit18 : 0.9808 
+- correlation between tuit17 & tuit18 : 0.9808, which means there's only a little change in tuition fee from age 17 to age 18.
 
 ![image](https://user-images.githubusercontent.com/20382285/197338823-6f99f9a6-1125-438a-9971-ad6e97ab6457.png)
 
+The result shows that the t test for average tuition is $t_{avg tuit} = 1.29$, which is much more significant than both $t_{tuit17}(0.25)$ and $t_{tuit18}(0.00)$. To use the average tuition can increase the statistical significance. 
 
+v. Do the findings for the average tuition variable in part (iv) make sense when interpreted causally? What might be going on?
 
+- The coefficient of average tuition doesn't make much sense when interpreted causally. Because we only have two controled variables in this model, they are highest grades of parients and measure of ability. To analyse causality of tuition and educ, we need more controled variables such as teaching quality of the colleges to get stronger evidence. 
 
 --------------------------------------------------------
 
