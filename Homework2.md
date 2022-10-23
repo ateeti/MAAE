@@ -251,8 +251,8 @@ iv. Return to the simple regression of math12 on cathhs, but restrict the regres
 
 ![image](https://user-images.githubusercontent.com/20382285/197384104-5ecc3310-1d39-4077-b7f6-3caafcda62c6.png)
 
-- p-value $f_{statistic}$ : 0.0000 implies that 
-
+- p-value $f_{statistic}$ : 0.0000 implies that ifaminc, motheduc and fatheduc are jointly statistically significant.
+ 
 v. To the multiple regression in part (iii), add interactions between cathhs and each of the other explanatory variables. Are the interaction termsindividually or jointly significant?
 
 ![image](https://user-images.githubusercontent.com/20382285/197384808-61ad3e55-9b6c-4147-a058-c01a055b932d.png)
