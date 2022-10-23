@@ -212,11 +212,25 @@ iii. Is the coefficient on female in part (ii) statistically significant? Compar
 
 ![image](https://user-images.githubusercontent.com/20382285/197380504-62e52be0-26e3-4d6f-85e9-abc92b88bf8c.png)
 
-- t score : -8.27, which is very significant. 
+- t score on female in part ii : -8.27, which is very significant. 
 
 --------------------------------------------------------
 <strong>C16</strong>
 
+i. In the entire sample, what percentage of the students attend a Catholic high school? What is the average of math12 in the entire sample?
+
+![image](https://user-images.githubusercontent.com/20382285/197380838-16a941db-843d-4cbd-9950-6b670481abd3.png)
+
+ii. Run a simple regression of math12 on cathhs and report the results in the usual way. Interpret what you have found.
+
+![image](https://user-images.githubusercontent.com/20382285/197380886-bb082ebc-e312-4a7c-8fcf-b4680a8469d0.png)
+
+- $math12 = \beta_0 + \beta_1cathhs + u$
+- $math12 = 51.92299 + 3.462385cathhs + u$
+
+= $\beta_1 = 3.462385$ is the differential in math score of those who attended catholic and non-catholic highscool\
+  - cathhs = 1 : $\beta_0 + \beta_1$
+  - cathhs = 0 : $\beta_0$
 
 
 --------------------------------------------------------
