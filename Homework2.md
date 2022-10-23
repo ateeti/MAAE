@@ -48,7 +48,7 @@ The only problem is that we do not know the value of $se(\hat{\beta_2} - \hat{\b
 
 * since 0 is inside the C.I. which implies that there is not enough evidence to reject the null hypothesis.
 -------------------------------------------------------
-<strong>C8</strong> 
+<strong>C8</strong> [Done]
 
 The data set 401KSUBS contains information on net financial wealth (nettfa),age of the survey respondent (age), annual family income (inc), family size(fsize), and participation in certain pension plans for people in the UnitedStates. The wealth and income variables are both recorded in thousands ofdollars. For this question, use only the data for single-person households (so $fsize = 1$)
 
