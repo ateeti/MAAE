@@ -228,7 +228,7 @@ ii. Run a simple regression of math12 on cathhs and report the results in the us
 - $math12 = \beta_0 + \beta_1cathhs + u$
 - $math12 = 51.92299 + 3.462385cathhs + u$
 
-= $\beta_1 = 3.462385$ is the differential in math score of those who attended catholic and non-catholic highscool\
+$\hat{beta_1} = 3.462385$ is the differential in math score of those who attended catholic and non-catholic highscool\
   - cathhs = 1 : $\beta_0 + \beta_1$
   - cathhs = 0 : $\beta_0$
 
