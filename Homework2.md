@@ -264,6 +264,7 @@ v. To the multiple regression in part (iii), add interactions between cathhs and
 vii. Compute the average partial effect of cathhs in the model estimated in part (v). How does it compare with the coefficients on cathhs in parts (iii) and (v)?
 
 $math12 = \beta_0 + \beta_1cathhs + \beta_2lfaminc + \beta_3 motheduc + \beta_4 fatheduc + \beta_5clfam + \beta_6cmotheduc + \beta_7cfatheduc$
-- average partial effect of cathhs is when cathhs == 1 : $\beta_0 + \beta_1 + \beta_5 + \beta_6 + \beta_7$
+- average partial effect of cathhs is when 
+  - cathhs == 1 : $\beta_0 + \beta_1 + \beta_5 + \beta_6 + \beta_7$
 
 --------------------------------------------------------
