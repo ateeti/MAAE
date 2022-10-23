@@ -190,6 +190,8 @@ What are your expectations for the coefficients in this equation? Which ones are
 
 Use the data in WAGE1 for this exercise
 
+![image](https://user-images.githubusercontent.com/20382285/197378305-d708fb5a-1ec0-436a-aaa4-3d82a535b5a0.png)
+
 ![image](https://user-images.githubusercontent.com/20382285/197358647-d775328c-7d2e-458c-a59e-e251ac5f82b3.png)
 
 i . estimate the gender differential when $educ = 12.5$. Compare this with the estimated differential when $educ = 0$
