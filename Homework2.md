@@ -186,7 +186,15 @@ $colgpa = \beta_0 + \beta_1hsize + \beta_2hsize^2 + \beta_3hsperc + \beta_4sat +
 
 What are your expectations for the coefficients in this equation? Which ones are you unsure about?
 
-- 
+- We are not sure about $\beta_1$ and $\beta_2$. 
+- $\beta_3$ is expected to be negative since lower percentile means higher grade.
+- $\beta_4$ is expected to be positive since it's SAT score should be positively related to GPA.
+- $\beta_5$ is unclear.
+- $\beta_6$ is expected to be negative because athelets are supposed to have less time to study than other students.
+
+ii. Estimate the equation in part (i) and report the results in the usual form. What is the estimated GPA differential between athletes and nonathletes? Is it statistically significant?
+
+
 
 --------------------------------------------------------
 <strong>C7</strong>
