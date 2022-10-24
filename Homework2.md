@@ -85,6 +85,15 @@ iv. Find the p-value for the test $H_0 : \beta_2 = 1$ against $H_1 : \beta_2 < 1
 - The p-value with d.f. = n - k -1 = 2017 - 2 - 1 = 2014 is 0.0437, which is larger than 1%.
 - So we cannot reject the null hypothesis at 1% significance level.
 
+v. If you do a simple regression of nettfa on inc, is the estimated coefficient on inc much different from the estimate in part (ii)? Why or why not?
+
+<img width="635" alt="image" src="https://user-images.githubusercontent.com/116269829/197501293-024825b4-f85f-404e-b0e1-7fd9f4b02b4e.png">
+
+- The coefficient on inc is .8206815, which is not much different from the estimate in part (ii). Because the correlation between inc and age is relatively low.
+ <img width="267" alt="image" src="https://user-images.githubusercontent.com/116269829/197502692-d7d00d94-b11e-4d6e-b19e-ff409a5e5e25.png">
+
+
+
 -------------------------------------------------------
 
 ### <strong>C11</strong> [Done]
@@ -258,8 +267,7 @@ ii. Run the regression used to obtain (7.18), but with female·(educ − 12.5)re
 iii. Is the coefficient on female in part (ii) statistically significant? Comparethis with (7.18) and comment.
 
 
-- t score on female in part ii) is -8.27, p-value is 0.000. So the coefficient is significantly significant. But in (7.18) the t score of $femal \cdot edu$ is only $-0.0056/0.0131 \approx -0.43$, which is because the coefficient is the gender differential when $educ = 0$ and it is not a reasonable number. 
-
+- t score on female in part ii) is -8.27, p-value is 0.000. So the coefficient is significantly significant. But in (7.18) the t score of $femal \cdot edu$ is only $-0.0056/0.0131 \approx -0.43$, which is because the coefficient is the gender differential when $educ = 0$ and it is not a reasonable condition. 
 
 --------------------------------------------------------
 ### <strong>C16</strong>
