@@ -230,7 +230,7 @@ v. Does the effect of sat on colgpa differ by gender? Justify your answer.
 - The coefficient(0.0000512) of female_sat is the estimated differnece colgpa on gender. The t statistics is only 0.40 and p-value is 0.692. So there is not enough evidence that the effect of sat on colgpa differ by gender.
 
 --------------------------------------------------------
-### <strong>C7</strong>
+### <strong>C7</strong> [Done]
 
 Use the data in WAGE1 for this exercise
 
@@ -246,17 +246,20 @@ i . estimate the gender differential when $educ = 12.5$. Compare this with the e
 
 ii. Run the regression used to obtain (7.18), but with female·(educ − 12.5)replacing female∙educ. How do you interpret the coefficient on female now?
 
+![image](https://user-images.githubusercontent.com/20382285/197380504-62e52be0-26e3-4d6f-85e9-abc92b88bf8c.png)
+
 - $\hat{log(wage)} = \beta_0 + \delta_0female + \beta_1educ + \delta_1female*educ + other factors$
 - $\hat{log(wage)} = \beta_0 + \delta_0female + \beta_1educ + \delta_1female*(educ-12.5) + other factors$
 - $\hat{log(wage)} = \beta_0 + \delta_0female + \beta_1educ + \delta_1female*educ + \delta_1female12.5 + other factors$
 - $\hat{log(wage)} = \beta_0 + female(\delta_0 + \delta_112.5) + \beta_1educ + \delta_1female*educ + other factors$
-- $\theta_0 : (\delta_0 + \delta_112.5) = (-.2267886 + -.0055645(12.5)) = -.29634485$
+- $\theta_0 : (\delta_0 + \delta_112.5) = (-.2267886 + -.0055645(12.5)) = -.29634485$ is coefficient on female, which means the gender differential when $educ = 12.5$. 
+- $\theta_0$ is equal to the result we get in i).
 
 iii. Is the coefficient on female in part (ii) statistically significant? Comparethis with (7.18) and comment.
 
-![image](https://user-images.githubusercontent.com/20382285/197380504-62e52be0-26e3-4d6f-85e9-abc92b88bf8c.png)
 
-- t score on female in part ii : -8.27, which is very significant. 
+- t score on female in part ii) is -8.27, p-value is 0.000. So the coefficient is significantly significant. But in (7.18) the t score of $femal \cdot edu$ is only $-0.0056/0.0131 \approx -0.43$, which is because the coefficient is the gender differential when $educ = 0$ and it is not a reasonable number. 
+
 
 --------------------------------------------------------
 ### <strong>C16</strong>
