@@ -159,6 +159,10 @@ and report the results in the usual form. Holding other factors fixed, what is t
 
 ![image](https://user-images.githubusercontent.com/20382285/197349367-83213b17-3943-4202-87a0-a10731120ac4.png)
 
+$log(wage) = 5.40 + 0.07educ + 0.01exper + 0.01tenure + 0.20married - 0.19black - 0.09south + 0.18urban$
+
+$n = 935$, $R^2 = 0.2526$
+
 - $\beta_5$ determines the difference in month log(salary) between black and nonblacks. In this case, black earns 18.835% less than the nonblacks in salary. 
 - The absolute value of t statistic is 0.1883499/0.0376666 = 5, and p-value is 0.000, which means that the approximate difference is statistically significant.
 
@@ -205,6 +209,10 @@ What are your expectations for the coefficients in this equation? Which ones are
 ii. Estimate the equation in part (i) and report the results in the usual form. What is the estimated GPA differential between athletes and nonathletes? Is it statistically significant?
 
 <img width="633" alt="image" src="https://user-images.githubusercontent.com/116269829/197462984-a56e9a06-7c02-4e60-a6c7-150f4867a2f6.png">
+
+$colgpa = 1.241 - 0.057hsize + 0.005hsize^2 - 0.013hsperc + 0.002sat + 0.155female + 0.169athlete$
+
+$n = 4137$, $R^2 = 0.2925$
 
 - The estimated GPA differential between athletes and nonathletes is 0.1693064.
 - The t statistic for athletes is 4.00 and p-value is 0.000, so the estimated difference is statistically significant at 1% level.
