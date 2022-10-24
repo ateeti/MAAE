@@ -48,7 +48,7 @@ The only problem is that we do not know the value of $se(\hat{\beta_2} - \hat{\b
 
 * since 0 is inside the C.I. which implies that there is not enough evidence to reject the null hypothesis.
 -------------------------------------------------------
-<strong>C8</strong> [Done]
+### <strong>C8</strong> [Done]
 
 The data set 401KSUBS contains information on net financial wealth (nettfa),age of the survey respondent (age), annual family income (inc), family size(fsize), and participation in certain pension plans for people in the UnitedStates. The wealth and income variables are both recorded in thousands ofdollars. For this question, use only the data for single-person households (so $fsize = 1$)
 
@@ -87,7 +87,7 @@ iv. Find the p-value for the test $H_0 : \beta_2 = 1$ against $H_1 : \beta_2 < 1
 
 -------------------------------------------------------
 
-<strong>C11</strong> [Done]
+### <strong>C11</strong> [Done]
 
 Use the data in HTV to answer this question.
 
@@ -142,7 +142,7 @@ v. Do the findings for the average tuition variable in part (iv) make sense when
 --------------------------------------------------------
 
 ## Chapter 7 : Multiple Regression Analysis with Qualitative Information
-<strong>C2</strong>
+### <strong>C2</strong>
 
 i. Estimate the model\
 $log(wage) = \beta_0 + \beta_1educ + \beta_2exper + \beta_3tenure + \beta_4married + \beta_5black + \beta_6south + \beta_7urban + u$\
@@ -178,7 +178,7 @@ $log(wage) = \beta_0 + \beta_1educ + \beta_2exper + \beta_3tenure + \beta_4south
 - the estimated wage differential between married blacks and married nonblacks approximately 17.94%
 
 --------------------------------------------------------
-<strong>C4</strong>
+### <strong>C4</strong>
 
 i. Consider the equation
 
@@ -229,7 +229,7 @@ v. Does the effect of sat on colgpa differ by gender? Justify your answer.
 - The coefficient(0.0000512) of female_sat is the estimated differnece colgpa on gender. The t statistics is only 0.40 and p-value is 0.692. So there is not enough evidence that the effect of sat on colgpa differ by gender.
 
 --------------------------------------------------------
-<strong>C7</strong>
+### <strong>C7</strong>
 
 Use the data in WAGE1 for this exercise
 
@@ -258,7 +258,7 @@ iii. Is the coefficient on female in part (ii) statistically significant? Compar
 - t score on female in part ii : -8.27, which is very significant. 
 
 --------------------------------------------------------
-<strong>C16</strong>
+### <strong>C16</strong>
 
 i. In the entire sample, what percentage of the students attend a Catholic high school? What is the average of math12 in the entire sample?
 
