@@ -9,7 +9,7 @@
 
 ## Chapter 4 : Multiple Regression Analysis
 
-<strong>C6</strong> [Done]
+### <strong>C6</strong> [Done]
 
 Use the data in WAGE2 for this exercise.
 
