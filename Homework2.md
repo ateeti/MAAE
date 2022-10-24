@@ -142,7 +142,7 @@ v. Do the findings for the average tuition variable in part (iv) make sense when
 --------------------------------------------------------
 
 ## Chapter 7 : Multiple Regression Analysis with Qualitative Information
-### <strong>C2</strong>
+### <strong>C2</strong> [Done]
 
 i. Estimate the model\
 $log(wage) = \beta_0 + \beta_1educ + \beta_2exper + \beta_3tenure + \beta_4married + \beta_5black + \beta_6south + \beta_7urban + u$\
@@ -150,7 +150,8 @@ and report the results in the usual form. Holding other factors fixed, what is t
 
 ![image](https://user-images.githubusercontent.com/20382285/197349367-83213b17-3943-4202-87a0-a10731120ac4.png)
 
-- $\beta_5$ determines the difference in month log(salary) between black and nonblacks. In this case, holding other factors fixed, black earns 18.835% less than the nonblacks in salary. 
+- $\beta_5$ determines the difference in month log(salary) between black and nonblacks. In this case, black earns 18.835% less than the nonblacks in salary. 
+- The absolute value of t statistic is 0.1883499/0.0376666 = 5, and p-value is 0.000, which means that the approximate difference is statistically significant.
 
 ii. Add the variables $exper^2$ and $tenure^2$ to the equation and show that they are jointly insignificant at even 20% level.
 
@@ -166,7 +167,7 @@ iii. Extend the original model to allow the return to education to depend on rac
 ![image](https://user-images.githubusercontent.com/20382285/197353762-f5c9980e-d566-4a20-956e-4479a02ce558.png)
 
 - p-value of $F_{statistic} = 0.2626$ , which is greater than significance level even at 20%
-- $\therefore$ we can say that education does not depend on race.  
+- $\therefore$ we cannot reject the null hypothesis that the return to education does not depend on race.
 
 iv. Again, start with the original model, but now allow wages to differ across four groups of people: married and black, married and nonblack, single and black, and single and nonblack. What is the estimated wage differential between married blacks and married nonblacks?
 
@@ -178,7 +179,7 @@ $log(wage) = \beta_0 + \beta_1educ + \beta_2exper + \beta_3tenure + \beta_4south
 - the estimated wage differential between married blacks and married nonblacks approximately 17.94%
 
 --------------------------------------------------------
-### <strong>C4</strong>
+### <strong>C4</strong> [Done]
 
 i. Consider the equation
 
@@ -254,7 +255,8 @@ ii. Run the regression used to obtain (7.18), but with female·(educ − 12.5)re
 iii. Is the coefficient on female in part (ii) statistically significant? Comparethis with (7.18) and comment.
 
 ![image](https://user-images.githubusercontent.com/20382285/197380504-62e52be0-26e3-4d6f-85e9-abc92b88bf8c.png)
- 
+
+- t score on female in part ii : -8.27, which is very significant. 
 
 --------------------------------------------------------
 ### <strong>C16</strong>
