@@ -194,7 +194,39 @@ What are your expectations for the coefficients in this equation? Which ones are
 
 ii. Estimate the equation in part (i) and report the results in the usual form. What is the estimated GPA differential between athletes and nonathletes? Is it statistically significant?
 
+<img width="633" alt="image" src="https://user-images.githubusercontent.com/116269829/197462984-a56e9a06-7c02-4e60-a6c7-150f4867a2f6.png">
 
+- The estimated GPA differential between athletes and nonathletes is 0.1693064.
+- The t statistic for athletes is 4.00 and p-value is 0.000, so the estimated difference is statistically significant at 1% level.
+
+iii. Drop sat from the model and reestimate the equation. Now, what is the estimated effect of being an athlete? Discuss why the estimate is different than that obtained in part (ii).  
+
+<img width="629" alt="image" src="https://user-images.githubusercontent.com/116269829/197464103-90ab5329-e190-4323-aed9-6ad1bc1bd5a6.png">
+
+- Now the estimated effect of being an athlete is only 0.0054487, which is much more smaller and not statistically significant. This happened because SAT can impact the result, but it's not a control variable in the new regression. Then the estimated result of athlete is confounded because of SAT. 
+
+iv. In the model from part (i), allow the effect of being an athlete to differ by gender and test the null hypothesis that there is no ceteris paribus difference between women athletes and women nonathletes.
+
+<img width="463" alt="image" src="https://user-images.githubusercontent.com/116269829/197471802-e9188ee8-6f2f-42cd-8dd0-4cb88cd56764.png">
+
+<img width="644" alt="image" src="https://user-images.githubusercontent.com/116269829/197471832-40e69936-ef55-4c32-a726-a97c692b08e4.png">
+
+<img width="311" alt="image" src="https://user-images.githubusercontent.com/116269829/197472065-bc37f02f-d9e8-4c0c-870a-495e98e4f86d.png">
+
+- The F test indicates that we can reject the null hypothesis: $\beta_{female\textunderscore ath} = \beta_{female\textunderscore nonath}$ at 5% significance level since p-value is only 0.0372.
+
+- Another way for this question is to use another variable male_nonath:
+
+<img width="636" alt="image" src="https://user-images.githubusercontent.com/116269829/197476350-cdb805e8-0b97-459f-8df5-4b32774560ca.png">
+
+- Then the coefficient of female_ath is the difference between women athletes and women nonathletes.
+- The t statistic for the estimated difference is 2.08 and p-value is 0.037, so we can reject the null hypothesis at 5% significance level.
+
+v. Does the effect of sat on colgpa differ by gender? Justify your answer.
+
+<img width="635" alt="image" src="https://user-images.githubusercontent.com/116269829/197478780-23544aaf-98dd-4ca0-9333-b713857c1b0d.png">
+
+- The coefficient(0.0000512) of female_sat is the estimated differnece colgpa on gender. The t statistics is only 0.40 and p-value is 0.692. So there is not enough evidence that the effect of sat on colgpa differ by gender.
 
 --------------------------------------------------------
 <strong>C7</strong>
