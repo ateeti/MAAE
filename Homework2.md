@@ -254,8 +254,7 @@ ii. Run the regression used to obtain (7.18), but with female·(educ − 12.5)re
 iii. Is the coefficient on female in part (ii) statistically significant? Comparethis with (7.18) and comment.
 
 ![image](https://user-images.githubusercontent.com/20382285/197380504-62e52be0-26e3-4d6f-85e9-abc92b88bf8c.png)
-
-- t score on female in part ii : -8.27, which is very significant. 
+ 
 
 --------------------------------------------------------
 ### <strong>C16</strong>
