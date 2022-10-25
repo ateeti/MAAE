@@ -259,7 +259,7 @@ i . estimate the gender differential when $educ = 12.5$. Compare this with the e
 
 - when $educ = 12.5$, the gender differential : -.2267886 + (-.0055645*12.5) = -.29634485 = 29.63% in wage
 - when $educ = 0$, the gender differential : -.2267886 + (-.0055645*0) = -.2267886 = 22.68% in wage
-- so the gender differential in wage is -.29634485 - -.2267886 = -.06955625 $\approxeq$ 6.95%
+- so the gender differential in wage is -.29634485 - -.2267886 = -.06955625 $\approx$ 6.95%
 
 ii. Run the regression used to obtain (7.18), but with female·(educ − 12.5)replacing female∙educ. How do you interpret the coefficient on female now?
 
@@ -284,7 +284,8 @@ i. In the entire sample, what percentage of the students attend a Catholic high 
 
 ![image](https://user-images.githubusercontent.com/20382285/197380838-16a941db-843d-4cbd-9950-6b670481abd3.png)
 
-- .06083445 $\approxeq$ 60.8% attend a Catholic high school
+- .06083445 $\approx$ 6.08% attend a Catholic high school
+- The average of math12 is 52.13
 
 ii. Run a simple regression of math12 on cathhs and report the results in the usual way. Interpret what you have found.
 
@@ -292,6 +293,7 @@ ii. Run a simple regression of math12 on cathhs and report the results in the us
 
 - $math12 = \beta_0 + \beta_1cathhs + u$
 - $math12 = 51.92299 + 3.462385cathhs + u$
+- $n = 7430$, $R^2 = 0.0077
 
 $\hat{\beta_1} = 3.462385$ is the differential in math score of those who attends catholic and non-catholic high-school
   - cathhs = 1 : $\beta_0 + \beta_1$
@@ -303,7 +305,7 @@ iii. Now add the variables lfaminc, motheduc, and fatheduc to the regression fro
 
 - number of observation(variables) used : 7430 
 - the coefficient on cathhs reduces by 1.985155 
-  - from 3.462385 -> 1.47723 
+  - from 3.462385 - 1.47723 
   - its statistical significance has also reduced but still remains significant 
     - went from $t_{cathhs}$ : 7.57 -> 3.53 
   
@@ -322,7 +324,7 @@ v. To the multiple regression in part (iii), add interactions between cathhs and
 
 ![image](https://user-images.githubusercontent.com/20382285/197384817-1b41c93d-c1b1-47b5-96b8-a372a4a0e7c8.png)
 
--..
+- The interaction are not jointly significant because p-value of F test is 
 
 vii. Compute the average partial effect of cathhs in the model estimated in part (v). How does it compare with the coefficients on cathhs in parts (iii) and (v)?
 
