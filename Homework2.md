@@ -332,9 +332,11 @@ $APE = E(Y|Cathhs==1) - E(Y|Cathhs=0) = E(Y_1) - E(Y_0) = ATE
 
 $math12 = \beta_0 + \beta_1cathhs + \beta_2lfaminc + \beta_3 motheduc + \beta_4 fatheduc + \beta_5clfam + \beta_6cmotheduc + \beta_7cfatheduc$
 - v) APE (Caths==1) : 
-  - $ \partialE(math12|cathhs)\over\partial{cathhs}$
+  - $\partial E(math12|cathhs==1)\over\partial{cathhs}$ = $\beta_1$
+  - $\beta_1$ - 0 = 12.50966
 
 - iii) average partial effect of cathhs is when
-  - $ \partialE(math12|cathhs)\over\partial{cathhs}$
+  - $\partial E(math12|cathhs==1)\over\partial{cathhs}$ = $\beta_1$
+  - $\beta_1$ - 0 = 1.47723
 
 --------------------------------------------------------
