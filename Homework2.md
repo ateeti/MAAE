@@ -330,9 +330,9 @@ vii. Compute the average partial effect of cathhs in the model estimated in part
 
 $math12 = \beta_0 + \beta_1cathhs + \beta_2lfaminc + \beta_3 motheduc + \beta_4 fatheduc + \beta_5clfam + \beta_6cmotheduc + \beta_7cfatheduc$
 - v) average partial effect of cathhs is when 
-  - cathhs == 1 : $\beta_0 + \beta_1 + \beta_5 + \beta_6 + \beta_7$
-  - 10.5545 + 12.50966 + (-1.062528) + (-0.0824662) + (.1007428) = 22.0199086
-  - average partial effect of math12 for attending cathhs in model v) $\approxeq$ 22
+  - cathhs == 1 : $\beta_0 + \beta_1$
+  - 10.5545 + 12.50966 = 23.06416
+  - average partial effect of math12 for attending cathhs in model v) $\approxeq$ 23.0
 
 - iii) average partial effect of cathhs is when
   - cathhs == 1 : $\beta_0 + \beta_1$
