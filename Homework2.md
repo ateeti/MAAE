@@ -324,7 +324,7 @@ v. To the multiple regression in part (iii), add interactions between cathhs and
 
 ![image](https://user-images.githubusercontent.com/20382285/197384817-1b41c93d-c1b1-47b5-96b8-a372a4a0e7c8.png)
 
-- The interaction are not jointly significant because p-value of F test is 
+- The interaction are not jointly significant because p-value of F test is 0.3037.
 
 vii. Compute the average partial effect of cathhs in the model estimated in part (v). How does it compare with the coefficients on cathhs in parts (iii) and (v)?
 
