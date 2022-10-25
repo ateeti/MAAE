@@ -328,15 +328,13 @@ v. To the multiple regression in part (iii), add interactions between cathhs and
 
 vii. Compute the average partial effect of cathhs in the model estimated in part (v). How does it compare with the coefficients on cathhs in parts (iii) and (v)?
 
+$APE = E(Y|Cathhs==1) - E(Y|Cathhs=0) = E(Y_1) - E(Y_0) = ATE
+
 $math12 = \beta_0 + \beta_1cathhs + \beta_2lfaminc + \beta_3 motheduc + \beta_4 fatheduc + \beta_5clfam + \beta_6cmotheduc + \beta_7cfatheduc$
-- v) average partial effect of cathhs is when 
-  - cathhs == 1 : $\beta_0 + \beta_1$
-  - 10.5545 + 12.50966 = 23.06416
-  - average partial effect of math12 for attending cathhs in model v) $\approxeq$ 23.0
+- v) APE (Caths==1) : 
+  - $ \partialE(math12|cathhs)\over\partial{cathhs}$
 
 - iii) average partial effect of cathhs is when
-  - cathhs == 1 : $\beta_0 + \beta_1$
-  - 11.14863 + 1.47723 = 12.62586
-  - average partial effect of math12 for attending cathhs in model iii) $\approxeq$ 12.6
+  - $ \partialE(math12|cathhs)\over\partial{cathhs}$
 
 --------------------------------------------------------
