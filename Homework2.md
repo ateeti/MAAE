@@ -316,7 +316,8 @@ iv. Return to the simple regression of math12 on cathhs, but restrict the regres
 
 ![image](https://user-images.githubusercontent.com/20382285/197384104-5ecc3310-1d39-4077-b7f6-3caafcda62c6.png)
 
-- p-value $f_{statistic}$ : 0.0000 implies that ifaminc, motheduc and fatheduc are jointly statistically significant.
+- p-value $f_{statistic}$ : 0.0000 implies that lfaminc, motheduc and fatheduc are jointly statistically significant.
+- explanatory variables : lfaminc motheduc fatheduc are statistically important in regressing the math12 score. 
  
 v. To the multiple regression in part (iii), add interactions between cathhs and each of the other explanatory variables. Are the interaction termsindividually or jointly significant?
 
@@ -325,6 +326,7 @@ v. To the multiple regression in part (iii), add interactions between cathhs and
 ![image](https://user-images.githubusercontent.com/20382285/197384817-1b41c93d-c1b1-47b5-96b8-a372a4a0e7c8.png)
 
 - The interaction are not jointly significant because p-value of F test is 0.3037.
+- which means that these intereaction terms, when included, are not important in regressing the math12 score.  
 
 vii. Compute the average partial effect of cathhs in the model estimated in part (v). How does it compare with the coefficients on cathhs in parts (iii) and (v)?
 
