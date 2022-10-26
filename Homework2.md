@@ -341,6 +341,6 @@ $math12 = \beta_0 + \beta_1cathhs + \beta_2lfaminc + \beta_3 motheduc + \beta_4 
   - $\partial E(math12|cathhs==1)\over\partial{cathhs}$ = $\hat{\beta_1}$
   - $\hat{\beta_1}$ - 0 = 1.47723
 
-- Difference of \beta_1 across 2 models : 12.50966 - 1.47723 = 11.03243
+- Difference of $\beta_1$ across 2 models : 12.50966 - 1.47723 = 11.03243
 
 --------------------------------------------------------
