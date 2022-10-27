@@ -278,7 +278,7 @@ iii. Is the coefficient on female in part (ii) statistically significant? Compar
 - t score on female in part ii) is -8.27, p-value is 0.000. So the coefficient is significantly significant. But in (7.18) the t score of $femal \cdot edu$ is only $-0.0056/0.0131 \approx -0.43$, which is because the coefficient is the gender differential when $educ = 0$ and it is not a reasonable condition. 
 
 --------------------------------------------------------
-### <strong>C16</strong>[Done]
+### <strong>C16</strong> [Done]
 
 i. In the entire sample, what percentage of the students attend a Catholic high school? What is the average of math12 in the entire sample?
 
